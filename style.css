@@ -149,8 +149,6 @@ img {
     padding: 100px 0;
 }
 #serices .service-title {
-    width: 100%;
-    text-align: center;
 }
 #services .service-top span {
     color: crimson;
@@ -303,3 +301,9 @@ img {
     }
 }
 /* End Keyframes */
+
+@media(max-width:770px){
+    .service-title {
+        font-size: 34px;
+    }
+}
